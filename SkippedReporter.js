@@ -24,7 +24,7 @@ class SkippedReporter {
         const skippedTestNames = this.skipped[path];
         this.stdio.log(`  Skipped ${skippedTestNames.length} specs in ${path}`);
         skippedTestNames.forEach(name => {
-          this.stdio.log(`    - ${name}`);
+          // this.stdio.log(`    - ${name}`);
         });
       });
     }
